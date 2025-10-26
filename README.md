@@ -1,12 +1,14 @@
 Skin Cancer Detection using CNN (Deep Learning)
 
 
-Overview
+Overview:
+
 This project applies Convolutional Neural Networks (CNN) to classify skin lesions as Benign or Malignant using dermoscopic images. It demonstrates how deep learning can assist in early cancer detection through automated medical image analysis.
 
 The model is trained using TensorFlow/Keras with data augmentation, learning rate scheduling, and early stopping to achieve strong generalization and prevent overfitting.
 
-Features
+Features:
+
 Binary classification for skin cancer detection
 
 Custom CNN architecture built from scratch
@@ -19,7 +21,8 @@ Model evaluation with precision, recall, and F1‑score
 
 Single‑image testing with result visualization
 
-Dataset
+Dataset:
+
 Dataset used: ISIC / HAM10000
 
 Structure:
@@ -38,7 +41,8 @@ Testing images: 2,000
 
 Image resolution: 224×224
 
-Model Architecture
+Model Architecture:
+
 Model Type: Sequential CNN
 Layers:
 
@@ -56,7 +60,8 @@ Optimizer: Adam
 Loss: Binary Cross‑Entropy
 Callbacks: EarlyStopping, ReduceLROnPlateau
 
-Accuracy and Results
+Accuracy and Results:
+
 Training Accuracy: ~90%
 
 Validation Accuracy: ~88%
